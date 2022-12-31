@@ -4,6 +4,10 @@ Minimal example Qt5/Qt6 "portable' test app to demonstrate regressions
 seen in Qt 6.5.0beta1 and 6.6.0 "dev" releases on Android. They work
 correctly across Qt Versions on Linux, for example.
 
+See https://bugreports.qt.io/browse/QTBUG-109731 for details.
+"QTBUG-109731
+6.5beta1 & 6.6 regression QML MediaPlayer shows Corrupt/Blank Video If Playback Starts at Launch"
+
 In all prior versions of 
 Qt 5.15, 6.2, 6.3, 6.4, this app works correctly -- playing back an internet
 copy of the open-source "Big Buck Bunny" test video. 
