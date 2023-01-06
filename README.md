@@ -1,7 +1,7 @@
 # qmlvideobug
 
 Minimal example Qt5/Qt6 "portable' test app to demonstrate regressions
-seen in Qt 6.5.0beta1 and 6.6.0 "dev" releases on Android. They work
+seen in Qt 6.4.2, 6.5.0beta1 and 6.6.0 "dev" releases on Android. They work
 correctly across Qt Versions on Linux, for example.
 
 See https://bugreports.qt.io/browse/QTBUG-109731 for details.
@@ -9,10 +9,10 @@ See https://bugreports.qt.io/browse/QTBUG-109731 for details.
 > 6.5beta1 & 6.6 regression QML MediaPlayer shows Corrupt/Blank Video If Playback Starts at Launch
 
 In all prior versions of 
-Qt 5.15, 6.2, 6.3, 6.4, this app works correctly -- playing back an internet
+Qt 5.15, 6.2, 6.3, 6.4.0, 6.4.1, this app works correctly -- playing back an internet
 copy of the open-source "Big Buck Bunny" test video. 
 
-Beginning with 6.5.0beta1 and 6.6.0 "dev" releases, the expected video display is either blank or corrupted.
+Beginning with 6.4.2, 6.5.0beta1 and 6.6.0 "dev" releases, the expected video display is either blank or corrupted.
 
 In 6.5, the video area is blank, and the reported video speed is (per reported playback position) is faster than actual time. Sometimes the audio seems pitched wrong.
 
